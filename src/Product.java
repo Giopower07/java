@@ -12,6 +12,10 @@ public abstract class Product {
         this.price = price;
     }
 
+    /**
+     *
+     * @return
+     */
     public abstract String getCategory();
 
     public String getName() {
