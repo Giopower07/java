@@ -112,6 +112,11 @@ public class CashRegister {
         return count > 0 ? sum / count : 0;
     }
 
+    /**
+     * metodo che serve per applicare gli sconti in base alla categoria del prodotto
+     * @param category
+     * @param percent
+     */
     public void applyDiscountToCategory(String category, double percent) {
         for (int i = 0; i < itemCount; i++) {
             Product p = items[i].getProduct();
