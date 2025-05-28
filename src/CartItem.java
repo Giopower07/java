@@ -26,6 +26,10 @@ public class CartItem {
         return product.getPrice() * quantity;
     }
 
+    /**
+     * me
+     * @return
+     */
     public Product getProduct() {
         return product;
     }
