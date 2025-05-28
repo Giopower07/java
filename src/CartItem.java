@@ -18,6 +18,10 @@ public class CartItem {
         this.quantity = quantity;
     }
 
+    /** questo è un metodo get di tipo double che ritorna il valore del calcolo in formato double
+     *
+     * @return
+     */
     public double getSubtotal() {
         return product.getPrice() * quantity;
     }
