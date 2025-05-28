@@ -94,6 +94,11 @@ public class CashRegister {
         return total;
     }
 
+    /**
+     * calcola i prezzi medi delle categorie attraverso un for e un if
+     * @param category
+     * @return
+     */
     public double averagePriceByCategory(String category) {
         double sum = 0.0;
         int count = 0;
