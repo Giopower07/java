@@ -11,6 +11,10 @@ public class FoodProduct extends Product {
         this.expirationDate = expirationDate;
     }
 
+    /**
+     * metodo che torna la stringa food
+     * @return
+     */
     @Override
     public String getCategory() {
         return "Food";
