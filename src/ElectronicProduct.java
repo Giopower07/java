@@ -17,6 +17,10 @@ public class ElectronicProduct extends Product {
         this.warrantyMonths = warrantyMonths;
     }
 
+    /**metodo che ritorna una stringa
+     *
+     * @return
+     */
     @Override
     public String getCategory() {
         return "Electronics";
