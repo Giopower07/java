@@ -34,6 +34,10 @@ public class CartItem {
         return product;
     }
 
+    /**
+     * metodo get che ritorna la quantità
+     * @return
+     */
     public int getQuantity() {
         return quantity;
     }
