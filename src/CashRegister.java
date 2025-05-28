@@ -44,6 +44,10 @@ public class CashRegister {
         items[itemCount++] = new CartItem(product, quantity);
     }
 
+    /**metodo nel quale all'interno c'è un ciclo for che contiene un if e a sua volta contiene un altro for e non torna valori essendo void
+     *
+     * @param productName
+     */
     public void removeItemByName(String productName) {
         for (int i = 0; i < itemCount; i++) {
             if (items[i].getProduct().getName().equalsIgnoreCase(productName)) {
@@ -58,6 +62,10 @@ public class CashRegister {
         }
     }
 
+    /**
+     *  calcola e torna il totale
+     * @return
+     */
     public double calculateSubtotal() {
         double total = 0.0;
         for (int i = 0; i < itemCount; i++) {
