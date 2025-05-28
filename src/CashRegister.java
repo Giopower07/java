@@ -147,6 +147,11 @@ public class CashRegister {
         System.out.println("================");
     }
 
+    /**
+     * metodo  per  assegnare un valore booleano cioè vero o falso in base ai dettagli del prodotto che vengono forniti
+     * @param productName
+     * @return
+     */
     public boolean containsProduct(String productName) {
         for (int i = 0; i < itemCount; i++) {
             if (items[i].getProduct().getName().equalsIgnoreCase(productName)) {
