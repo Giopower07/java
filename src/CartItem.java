@@ -42,6 +42,10 @@ public class CartItem {
         return quantity;
     }
 
+    /**
+     * metodo per aumentare o diminuire la quantità
+     * @param amount
+     */
     public void increaseQuantity(int amount) {
         if (amount > 0) {
             quantity += amount;
