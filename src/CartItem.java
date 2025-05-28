@@ -27,7 +27,7 @@ public class CartItem {
     }
 
     /**
-     * me
+     * metodo get che ritorna product
      * @return
      */
     public Product getProduct() {
