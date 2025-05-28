@@ -2,6 +2,9 @@ package cashregister.src;
 
 import java.util.Iterator;
 
+/**
+ * classe pubblica che che contine variabili private
+ */
 public class CashRegister {
     private CartItem[] items;
     private int itemCount;
