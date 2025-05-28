@@ -14,7 +14,10 @@ public class CashRegister {
         items = new CartItem[10];
         itemCount = 0;
     }
-
+/** metodo privato che contiene un if con allinterno la creazione dei un array
+ * e un ciclo for
+ *
+ */
     private void ensureCapacity() {
         if (itemCount >= items.length) {
             CartItem[] newItems = new CartItem[items.length * 2];
