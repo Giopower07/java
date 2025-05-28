@@ -82,6 +82,10 @@ public class CashRegister {
         return calculateSubtotal() * (1 + TAX_RATE);
     }
 
+    /**conta gli items totali attraverso un ciclo for e torna il totale
+     *
+     * @return
+     */
     public int countTotalItems() {
         int total = 0;
         for (int i = 0; i < itemCount; i++) {
