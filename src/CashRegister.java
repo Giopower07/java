@@ -28,6 +28,11 @@ public class CashRegister {
         }
     }
 
+    /**
+     * metodo nel quale all'interno c'è un ciclo for che contiene un if e non torna valori essendo void
+     * @param product
+     * @param quantity
+     */
     public void addItem(Product product, int quantity) {
         for (int i = 0; i < itemCount; i++) {
             if (items[i].getProduct().getName().equals(product.getName())) {
