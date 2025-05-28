@@ -126,6 +126,9 @@ public class CashRegister {
         }
     }
 
+    /**
+     * metodo per stampare la ricevuta con tutti i dettagli del prodotto
+     */
     public void printReceipt() {
         System.out.println("=== RECEIPT ===");
         for (int i = 0; i < itemCount; i++) {
