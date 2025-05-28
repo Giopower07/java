@@ -74,6 +74,10 @@ public class CashRegister {
         return total;
     }
 
+    /**
+     *  calcola il totale e con le tasse e torna il valore
+     * @return
+     */
     public double calculateTotalWithTax() {
         return calculateSubtotal() * (1 + TAX_RATE);
     }
